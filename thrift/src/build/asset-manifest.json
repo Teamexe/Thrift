@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/MyThrift/static/css/main.162537f0.css",
+    "main.js": "/MyThrift/static/js/main.b25ab1c4.js",
+    "static/js/787.d1d73449.chunk.js": "/MyThrift/static/js/787.d1d73449.chunk.js",
+    "index.html": "/MyThrift/index.html",
+    "main.162537f0.css.map": "/MyThrift/static/css/main.162537f0.css.map",
+    "main.b25ab1c4.js.map": "/MyThrift/static/js/main.b25ab1c4.js.map",
+    "787.d1d73449.chunk.js.map": "/MyThrift/static/js/787.d1d73449.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.162537f0.css",
+    "static/js/main.b25ab1c4.js"
+  ]
+}
