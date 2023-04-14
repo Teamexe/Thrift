@@ -1,0 +1,139 @@
+*{
+  font-family: 'Kelly Slab', cursive;
+}
+.card-group-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 576px) {
+  .card-group-container {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .card-group-container {
+    margin-left: -20px;
+    margin-right: -20px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .card-group-container {
+    margin-left: -25px;
+    margin-right: -25px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .card-group-container {
+    margin-left: -30px;
+    margin-right: -30px;
+  }
+}
+
+.card-group {
+  margin-bottom: 30px;
+  width: calc(25% - 20px);
+  margin-right: 20px;
+}
+
+.card-group:nth-child(4n) {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 991px) {
+  .card-group {
+    width: calc(33.3333% - 20px);
+  }
+
+  .card-group:nth-child(3n) {
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .card-group {
+    width: 100%;
+    margin-right: 0;
+  }
+}
+
+.glassmorphism-card {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  transition: all 0.3s ease-in-out;
+}
+.glassmorphism-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 40px 0 rgba(31, 38, 135, 0.57);
+}
+#card{
+  display: grid;
+  grid-template-rows: 1fr 0.5fr;
+}
+.button-71 {
+  background-color: #0078d0;
+  border: 0;
+  border-radius: 56px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: system-ui,-apple-system,system-ui,"Segoe UI",Roboto,Ubuntu,"Helvetica Neue",sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  outline: 0;
+  padding: 16px 21px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-bottom: 10px;
+}
+
+.button-71:before {
+  background-color: initial;
+  background-image: linear-gradient(#fff 0, rgba(255, 255, 255, 0) 100%);
+  border-radius: 125px;
+  content: "";
+  height: 50%;
+  left: 4%;
+  opacity: .5;
+  position: absolute;
+  top: 0;
+  transition: all .3s;
+  width: 92%;
+}
+
+.button-71:hover {
+  box-shadow: rgba(255, 255, 255, .2) 0 3px 15px inset, rgba(0, 0, 0, .1) 0 3px 5px, rgba(0, 0, 0, .1) 0 10px 13px;
+  transform: scale(1.05);
+}
+
+@media (min-width: 768px) {
+  .button-71 {
+    padding: 16px 48px;
+  }
+}
+
+.text_inside{
+  padding: 15px 0px 10px 0px;
+
+
+
+}
+
+#imageOfcard{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}

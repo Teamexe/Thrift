@@ -1,0 +1,53 @@
+.button23 {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #e74c3c;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-decoration: none;
+    border: none;
+    box-shadow: 0 5px #c0392b;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .button23:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px #c0392b;
+  }
+  
+  .button21 {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #3ce73f;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-decoration: none;
+    border: none;
+    box-shadow: 0 5px #034e05;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .button21:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px #034e05;
+  }
+  #button-group{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+  }
+  #form {
+    width: 50%;
+  }
+  
+  @media (max-width: 767px) {
+    #form {
+      width:90%;
+    }
+  }
+  

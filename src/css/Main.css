@@ -1,0 +1,79 @@
+#main{
+    box-shadow: h-shadow v-shadow blur spread color inset;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .button-container button {
+    margin: 0 1rem;
+    flex: 1;
+  }
+  
+  @media (max-width: 640px) {
+    .button-container {
+      flex-wrap: wrap;
+    }
+    
+    .button-container button {
+      margin: 0.5rem;
+      flex-basis: 100%;
+    }
+  }
+  
+  /* Styles for Donate Now button */
+ .donate-now-button {
+    background-color: #A3C48D;
+    color: #1D4E34;
+  }
+  .donate-now-button a {
+    color: inherit;
+  }
+  
+  
+.donate-now-button:hover {
+    background-color: #8CB47E;
+    color: #fff;
+  }
+  
+  /* Styles for Donate to NGO button */
+  .donate-to-ngo-button {
+    border: 4px solid #155D18;
+    color: #1D4E34;
+  }
+  
+  .donate-to-ngo-button:hover {
+    background-color: #155D18;
+    color: #A3C48D;
+  }
+  
+  #mainheading{
+    display: inline;
+    align-items: start;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  transform: perspective(50px) rotateY(5deg);
+  }
+  #mainheading:hover {
+    text-shadow: 2px 2px 1px #e29fc6;
+    transform: translateZ(10px);
+  }
+  #Donate{
+    width: 345px;
+  }
+  #Donate2{
+    width: 345px;
+  }
+  button.donate-now-button, button.donate-to-ngo-button {
+    text-decoration: none;
+    color: #2D3748;
+  }
+  
+  button.donate-now-button:hover, button.donate-to-ngo-button:hover {
+    background-color: #38A169;
+    color: #FFFFFF;
+  }
+  

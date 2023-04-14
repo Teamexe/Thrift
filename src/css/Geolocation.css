@@ -1,0 +1,55 @@
+/* #cont{
+    width: 100%;
+} */
+.geolocation-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .user-location {
+    margin-bottom: 50px;
+  }
+  
+  .user-location-text {
+    text-align: center;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .user-location {
+      font-size: 24px;
+    }
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  h1 {
+    font-size: 28px;
+    margin: 20px 0;
+    text-align: center;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin: 10px 0;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    h1 {
+      font-size: 24px;
+    }
+  }
+  

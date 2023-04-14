@@ -1,0 +1,35 @@
+/* .mx-2 {
+    padding: 10px;
+    border: 1px solid;
+    color: black;
+  }
+  
+  @media screen and (max-width: 767px) {
+    .mx-2 {
+      padding: 5px;
+      border-width: 0.5px;
+    }
+  }
+  
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+    .mx-2 {
+      padding: 8px;
+      border-width: 0.75px;
+    }
+  }
+  
+  @media screen and (min-width: 992px) {
+    .mx-2 {
+      padding: 10px;
+      border-width: 1px;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    #hoverButton, #hoverButton2 {
+        flex-direction: column;
+        align-items: center;
+    }
+    #hoverButton, #hoverButton2 {
+        margin: 10px 0;
+    }
+} */
