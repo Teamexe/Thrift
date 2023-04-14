@@ -1,1 +1,1 @@
-Thrift App Backend
+Thrift | Step Towards Literacy
